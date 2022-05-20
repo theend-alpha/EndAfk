@@ -1,5 +1,9 @@
 import random, html
 
+from Yuriko.modules.disable import (
+    DisableAbleCommandHandler,
+    DisableAbleMessageHandler,
+)
 from Yuriko import dispatcher
 from Yuriko.modules.sql import afk_sql as sql
 from Yuriko.modules.users import get_user_id
